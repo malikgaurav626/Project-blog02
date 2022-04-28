@@ -29,16 +29,24 @@
 	
 	font-style: normal;
 }
+@font-face {
+	font-family: 'BungeeShade';
+	src: local('Bungee Shade Regular'), local('BungeeShade-Regular'),
+		url('BungeeShade-Regular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
 body{  
 	  font-family: Bw Quinta Pro;
 	  background-color: rgb(20, 29, 37);
 	  color: antiquewhite;
+	  padding-right: 15%;
+	  padding-left: 15%;
     }
 .MainHeading {
-	font-family: Bw Quinta Pro;
+	font-family: BungeeShade;
 	font-style: normal;
-	font-size: 50px;
-	text-align: center;
+	font-size: 35px;
 	color: antiquewhite;
 }
 .menuitem {
