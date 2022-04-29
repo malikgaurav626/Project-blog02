@@ -59,7 +59,12 @@ body{
 .mainline {
 	position: relative;
 	bottom: 20px;
-	color: blue;
+	color: rgb(255, 255, 255);
+}
+.mainline1 {
+	position: relative;
+	bottom: 30px;
+	color: rgb(255, 255, 255);
 }
 .lnk{
 	text-decoration: none;
