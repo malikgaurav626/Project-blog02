@@ -119,3 +119,11 @@ body{
 	left: 82%;
 	top: 6px;
 }
+.lnkk{
+	text-decoration: none;
+	color: antiquewhite;
+	float: right;
+}
+.lnkk:hover{
+	color: rgb(100, 3, 228);
+}
