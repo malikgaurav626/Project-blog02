@@ -132,3 +132,10 @@ body{
 
 }
 .end-md{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;text-align:end}
+
+
+@media screen and (max-width:500px) {
+	a {text-align: center;}
+	a.lnkk{float: none;}
+	
+}
