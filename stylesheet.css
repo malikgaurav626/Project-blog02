@@ -42,7 +42,23 @@ body{
 	  color: antiquewhite;
 	  padding-right: 15%;
 	  padding-left: 15%;
-    }
+}
+::-webkit-scrollbar{
+	color: rgb(20, 29, 37);
+	transition: 1s;
+}
+::-webkit-scrollbar-thumb{
+	color: rgb(20, 29, 37);
+	background:antiquewhite;
+	transition: background 1s ease-out;
+}
+::-webkit-scrollbar-thumb:hover{
+	border: 1px solid antiquewhite;
+	border-radius: 2px;
+	background: rgb(20, 29, 37);
+}
+
+
 .MainHeading {
 	font-family: BungeeShade;
 	font-style: normal;
@@ -137,5 +153,129 @@ body{
 @media screen and (max-width:500px) {
 	a {text-align: center;}
 	a.lnkk{float: none;}
+}
+
+.button{
+	background: antiquewhite;
+	border: 1px solid antiquewhite;
+	border-radius: 2px;
+	transition: 0.4s;
+	font-family: Bw Quinta Pro1;
+	padding: 5px 15px;
+	font-size: large;
+}
+.button:hover{
+	background-color: rgb(20, 29, 37);
+	color: antiquewhite;
+}
+#login{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#feedback{
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+.footer{
+	float: right;
+}
+@media screen and (max-width:701px){
+	div.containers{
+		border: none;
+	}
+	div#loginid_container{
+		border: none;
+		display: none;
+	}
+	form#smallscreen{
+		display: block;
+	}
+}
+#smallscreen{
+	overflow-wrap: break-word;
+	padding: 0px;
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	align-items: center;
+	text-align: center;
+	font-size: small;
+	overflow: auto;
+	display: none;
+}
+#loginid_container{
+	overflow-wrap: break-word;
+	border: 1px solid antiquewhite;
+	border-radius: 2px;
+	padding: 10px;
+	display: block;
+	margin-left: 135px;
+	margin-right: 135px;
+	align-items: center;
+	text-align: center;
+	font-size: large;
+	overflow: auto;
+}
+.inputboxes{
+	color: rgb(20, 29, 37);
+	padding: 5px 10px;
+	background: antiquewhite;
+	border: 1px solid antiquewhite;
+	border-radius: 2px;
+}
+.inputboxes:focus{
+	color: antiquewhite;
+	background-color: rgb(20, 29, 37);
+	border-radius: 2px;
+	border: 1px solid antiquewhite;
+	outline: none;
+
+}
+
+.sbmtbtn{
+	background-color: rgb(20, 29, 37);
+	font-family: Bw Quinta Pro1;
+	color: antiquewhite;
+	border: 1px solid antiquewhite;
+	border-radius: 2px;
+	padding: 5px 13px;
+	transition: 0.4s;
+}
+.sbmtbtn:hover{
+	background-color: antiquewhite;
+	color: rgb(20, 29, 37);
+	border: 2px solid rgb(20, 29, 37);
+	border-radius: 2px;
+	padding: 6px 14px;
+}
+.checkboxes:checked{
+	background: antiquewhite;
 	
+}
+.headingf{
+	font-family: Bw Quinta Pro;
+	text-align: center;
+	font-weight: bold;
+}
+.textarea_container *{
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+}
+.textareas{
+	background-color: antiquewhite;
+	color: rgb(20, 29, 37);
+	transition: 0.4s;
+	outline: none;
+	border: 1px solid antiquewhite;
+}
+.textareas:focus{
+	background-color: rgb(20, 29, 37);
+	color: antiquewhite;
+}
+.textareas:hover{
+	background-color: rgb(20, 29, 37);
+	color: antiquewhite;
 }
